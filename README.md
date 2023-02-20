@@ -13,6 +13,15 @@
 ## Instalation
 
 ```
+pkg update && pkg upgrade
+pkg i imagemagick inotify-tools bc nano -y
+git clone https://github.com/AzRyCb/xshot
+termux-setup-storage
+cd xshot
+bash install.sh
+
+
+
 git clone https://github.com/dlvash/xshot
 cd xshot
 bash install.sh
